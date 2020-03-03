@@ -1,0 +1,8 @@
+server_provision ansible_ssh_host=127.0.0.1 ansible_ssh_user=vagrant
+
+[webserver]
+192.168.56.2 
+
+[database]
+192.168.56.3 
+
